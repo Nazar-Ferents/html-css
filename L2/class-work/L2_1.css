@@ -1,0 +1,25 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&display=swap');
+
+ .lorem{
+    color: green;
+ }
+
+ #gold{
+    color: gold;
+ }
+
+ .size20{
+    font-family: "Mozilla Headline", sans-serif;
+    font-size: 20px;
+ }
+
+
+ .playwrite-hu-200 {
+    font-family: "Playwrite HU", cursive;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+ }
+
+
