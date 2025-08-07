@@ -42,8 +42,7 @@ body{
 }
 
 .box:hover{
-    width: 250px;
-    height: 230px;
+    transform: scale(1.5);
     transition: 1s;
 
 }
