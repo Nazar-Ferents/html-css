@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /*height: 100vh;*/
+    background-color: #578857;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 50px 0;
+
+
+}
+
+.box{
+    width: 200px;
+    height: 180px;
+    box-sizing: border-box;
+    background-color: darkgrey;
+    border-radius: 10px;
+    flex-direction: column;
+    padding: 10px;
+    transition: 1s;
+
+}
+
+.box h2{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.box p{
+    margin: 8px 0;
+    font-size: 14px;
+}
+
+.box:hover{
+    width: 250px;
+    height: 230px;
+    transition: 1s;
+
+}
