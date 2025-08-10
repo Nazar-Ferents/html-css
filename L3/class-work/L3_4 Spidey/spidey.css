@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body{
+    font-family: "Libertinus Sans", sans-serif;
+}
+
+/*--------------------------------------- header -------------------------------------------*/
+
+header{
+    height: 10vh;
+    background: #d1a8a8;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+header div{
+    text-align: center;
+}
+
+header div h3{
+    font-size: 16px;
+}
+
+header nav ul{
+    display: flex;
+    gap: 20px;
+}
+
+header nav a{
+    list-style: none;
+    color: black;
+}
+
