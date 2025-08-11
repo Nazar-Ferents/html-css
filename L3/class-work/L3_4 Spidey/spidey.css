@@ -15,14 +15,15 @@ body{
 
 header{
     height: 10vh;
-    background: #d1a8a8;
+    background: #da6464;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 header div{
     text-align: center;
+
 }
 
 header div h3{
@@ -32,10 +33,57 @@ header div h3{
 header nav ul{
     display: flex;
     gap: 20px;
+
 }
 
 header nav a{
     list-style: none;
     color: black;
+    padding-left:10px;
+    padding-right: 10px;
+}
+
+/*-------------------------------------------main----------------------------------------------------*/
+
+.active-link{
+    color: #950104;
+}
+
+main{
+    height: 90vh;
+    background-image:url("https://wallpaperaccess.com/full/3547608.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 50px;
+}
+
+main p{
+    font-size: 20px;
+    color: #ca8f8f;
+}
+
+main h1{
+    font-size: 100px;
+    letter-spacing: 10px;
+    color: #ca8f8f;
+}
+
+main button{
+    height: 40px;
+    width: 160px;
+    background-color: black;
+    color:#ca8f8f ;
+    border: none;
+    margin-top: 35px;
+    transition: 0.5s;
+}
+
+main button:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    color: #df1b1f;
 }
 
