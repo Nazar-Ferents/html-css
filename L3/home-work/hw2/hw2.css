@@ -24,6 +24,10 @@ section h2{
    padding-bottom: 30px;
 }
 
+section p{
+    width: 80%;
+}
+
 .one{
     background-color: lightcoral;
 
