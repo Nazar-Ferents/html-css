@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 22vh;
+    background: #8D8484;
+    color: #000;
+    font-family: Inter, sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    height: 22vh;
+    background: #BDBDBD;
+    color: #000;
+    font-family: Inter, sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    display: flex;
+}
+
+main aside{
+    height: 60vh;
+    width: 27vw;
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+}
+
+main div{
+    width: 73vw;
+    height: 60vh;
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+
+}
+
+.top{
+    height: 20vh;
+    width: 100%;
+    background: #776969;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mid{
+    height: 20vh;
+    width: 100%;
+    background: #643030;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom{
+    height: 20vh;
+    width: 100%;
+    background: #441818;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aside-top{
+    height: 50%;
+    width: 100%;
+    background: #937575;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aside-bottom{
+    height: 50%;
+    width: 100%;
+    background: #644C4C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
