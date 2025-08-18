@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .blue{
+            background-color: blue;
+            width: 200px;
+            height: 200px;
+            margin: 100px auto 0 auto;
+            animation: name 5s linear infinite alternate;
+        }
+
+        @keyframes name {
+            from{
+                transform: translateY(300px);
+
+
+            }
+            to{
+                transform: scale(1);
+                background-color: yellow;
+
+            }
+
+        }
+    </style>
+</head>
+<body>
+ <div class="blue"></div>
+
+</body>
+</html>
