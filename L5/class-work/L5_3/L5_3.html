@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .flex{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .cards{
+            width: 200px;
+            height: 200px;
+        }
+
+        .blue{
+            background-color: blue;
+        }
+
+        .yellow{
+            background-color: yellow;
+            order: 2;
+        }
+
+        .green{
+            background-color: green;
+            order: -1;
+        }
+
+        .red{
+            background-color: red;
+            order: 1;
+        }
+
+        .black{
+            background-color: black;
+        }
+
+    </style>
+</head>
+<body>
+ <div class="flex">
+     <div class="cards blue"></div>
+     <div class="cards yellow"></div>
+     <div class="cards green"></div>
+     <div class="cards red"></div>
+     <div class="cards black"></div>
+ </div>
+
+</body>
+</html>
