@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+
+        .triangle{
+            width: 0;
+            height: 0;
+            border-left: 50px solid transparent;
+            border-right: 50px solid transparent;
+            border-bottom: 100px solid #000;
+            margin: 300px auto;
+            animation:triangle 3s ease-in-out infinite ;
+        }
+
+        @keyframes triangle {
+            from{
+                transform:rotate(0deg);
+
+            }
+            13%{
+                /*transform: rotate(45deg);*/
+                scale: 1.4;
+                border-bottom: 100px solid #4b4b50;
+            }
+
+            25%{
+                /*transform:rotate(90deg);*/
+                border-bottom: 100px solid #858688;
+
+
+            }
+            38%{
+                /*transform:rotate(135deg);*/
+
+                border-bottom: 100px solid #b4b4b8;
+
+            }
+            50%{
+                /*transform:rotate(180deg);*/
+                border-bottom: 100px solid #c9cbcd;
+                scale: 2;
+            }
+            63%{
+                /*transform:rotate(225deg);*/
+                border-bottom: 100px solid #b2b2b3;
+
+            }
+            75%{
+                /*transform:rotate(270deg);*/
+
+                border-bottom: 100px solid #737375;
+
+            }
+            88%{
+                /*transform:rotate(315deg);*/
+
+                border-bottom: 100px solid #323233;
+                scale: 1.4;
+            }
+
+            to{
+                transform:rotate(360deg);
+                scale: 1;
+                border-bottom: 100px solid #000307;
+
+            }
+        }
+    </style>
+</head>
+<body>
+ <div class="triangle"></div>
+
+</body>
+</html>
