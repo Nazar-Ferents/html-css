@@ -1,0 +1,80 @@
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+.instagram-box{
+    margin: 0 auto;
+    width: 25vw;
+    height: 71vh;
+}
+/*---------------login-----------------*/
+.login{
+    height: 80%;
+    border: 1px solid rgba(128, 128, 128, 0.4);
+}
+
+.login, form{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login img{
+    width: 60%;
+}
+
+input[type=text],
+input[type=password]{
+    width: 70%;
+    box-sizing: border-box;
+    padding: 10px 5px;
+    margin-top: 10px;
+    text-overflow: ellipsis;
+}
+
+input[type=submit]{
+    width: 70%;
+    height: 35px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background: #4ebbe6;
+    border: none;
+    font-size: 15px;
+    color: white;
+}
+
+form>p{
+    color: grey;
+    margin: 10px 0;
+}
+
+form>a:first-of-type{
+    text-decoration: none;
+    margin: 15px 0;
+}
+form>a>svg{
+    margin-bottom: -5px;
+}
+
+form>a:last-of-type{
+    text-decoration: none;
+    margin: 15px 0;
+    color: #155694;
+}
+
+.bottom-box{
+    height: 10%;
+    border: 1px solid rgba(128, 128, 128, 0.4);
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.bottom-box>p>a{
+    text-decoration: none;
+}
