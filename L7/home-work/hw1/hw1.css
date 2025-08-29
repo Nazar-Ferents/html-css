@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 132px;
+}
+
+.card{
+    width: 319px;
+    height: 492px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border: 4px solid #554C4C;
+    background: rgba(217, 217, 217, 0.30);
+}
+
+.card>div{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -5px
+
+}
+.card>div>svg{
+    width: 100px;
+    height: 100px;
+    fill: #FFF;
+    stroke-width: 4px;
+    stroke: #554C4C;
+    position: absolute;
+
+}
+.card>div>img{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: url(img/Ds3_Tool.png) lightgray 50% / contain no-repeat;
+}
+
+.green{
+    fill: #FFF;
+    stroke-width: 4px;
+    stroke: #65856E;
+}
+
+h3{
+    color: #000;
+    font-family: Inter, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+p{
+    color: #000;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    width: 211px;
+    height: 72px;
+}
+
+.card-green{
+    width: 319px;
+    height: 492px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border: 4px solid #65856E;
+    background: rgba(217, 217, 217, 0.30);
+}
+
+.card-green>div{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -5px
+
+}
+.card-green>div>svg{
+    width: 100px;
+    height: 100px;
+    fill: #FFF;
+    stroke-width: 4px;
+    stroke: #554C4C;
+    position: absolute;
+
+}
+.card-green>div>img{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: url(img/Ds3_Tool.png) lightgray 50% / contain no-repeat;
+}
