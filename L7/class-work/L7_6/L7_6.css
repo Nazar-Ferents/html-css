@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+    height:100vh;
+}
+
+h2{
+    margin-bottom: 40px;
+    color: #142823;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.cards{
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+    width:1111px;
+    gap: 128px;
+}
+
+.card{
+    display: inline-flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 32px;
+    background: #FFF;
+    box-shadow: 0 4px 20px 0 rgba(139, 139, 139, 0.10);
+    position: relative;
+}
+.highly-rated{
+    position:absolute;
+    top:-30px;
+    width: 165px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: url(img/highly_rated.png) lightgray 50% / cover no-repeat;
+}
+
+.card>p:first-of-type{
+    width: 245px;
+    color: #282828;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.blue-price{
+    color: #106FDF;
+    font-family: Inter, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.red-price{
+    color: #DD152D;
+    font-family: Inter, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
