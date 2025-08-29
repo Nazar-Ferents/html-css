@@ -28,7 +28,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    top: -5px
+    top: -5px;
 
 }
 .card>div>svg{
@@ -45,12 +45,6 @@ body{
     width: 60px;
     height: 60px;
     background: url(img/Ds3_Tool.png) lightgray 50% / contain no-repeat;
-}
-
-.green{
-    fill: #FFF;
-    stroke-width: 4px;
-    stroke: #65856E;
 }
 
 h3{
@@ -74,37 +68,43 @@ p{
 }
 
 .card-green{
-    width: 319px;
-    height: 492px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: relative;
     border: 4px solid #65856E;
-    background: rgba(217, 217, 217, 0.30);
-}
 
-.card-green>div{
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    top: -5px
 
 }
-.card-green>div>svg{
-    width: 100px;
-    height: 100px;
-    fill: #FFF;
-    stroke-width: 4px;
-    stroke: #554C4C;
-    position: absolute;
 
-}
-.card-green>div>img{
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    background: url(img/Ds3_Tool.png) lightgray 50% / contain no-repeat;
-}
+/*.card-green{*/
+/*    width: 319px;*/
+/*    height: 492px;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    position: relative;*/
+/*    border: 4px solid #65856E;*/
+/*    background: rgba(217, 217, 217, 0.30);*/
+/*}*/
+
+/*.card-green>div{*/
+/*    position: absolute;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    top: -5px*/
+
+/*}*/
+/*.card-green>div>svg{*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    fill: #FFF;*/
+/*    stroke-width: 4px;*/
+/*    stroke: #554C4C;*/
+/*    position: absolute;*/
+
+/*}*/
+/*.card-green>div>img{*/
+/*    position: absolute;*/
+/*    width: 60px;*/
+/*    height: 60px;*/
+/*    background: url(img/Ds3_Tool.png) lightgray 50% / contain no-repeat;*/
+/*}*/
