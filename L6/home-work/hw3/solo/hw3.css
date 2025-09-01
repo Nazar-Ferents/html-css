@@ -17,6 +17,11 @@ body{
     height: 65vh;
     width: 30vw;
     border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
 
 
 }
@@ -28,7 +33,7 @@ body{
     width: 100%;
 }
 
-.login>form>img{
+.login>img{
     width: 15vw;
     margin-top: 20px;
 }
@@ -51,21 +56,21 @@ input[type=submit]{
     font-size: 16px;
 }
 
-form p{
+.login p{
     color: grey;
     margin-top: 15px;
 }
 
-form a:first-of-type{
+.login a:first-of-type{
     text-decoration: none;
     font-weight: 600;
     margin-top: 25px;
 }
-form a:first-of-type svg{
+.login a:first-of-type svg{
     margin-bottom: -5px;
 }
 
-form a:last-of-type{
+.login a:last-of-type{
     text-decoration: none;
     color: #0d4895;
     margin-top: 25px;

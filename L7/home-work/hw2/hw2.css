@@ -30,6 +30,11 @@ header{
     width: 1400px;
     height: 113px;
     box-shadow: 0 4px 20px 0 rgb(23, 22, 22);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background: #24204A;
+
 }
 
 header h3{
@@ -44,6 +49,7 @@ nav ul{
     justify-content: center;
     align-items: center;
     gap: 64px;
+
 
 }
 
@@ -61,6 +67,7 @@ nav ul li a{
     align-items: center;
     flex-direction: row;
     height: 580px;
+    margin: 80px auto;
 }
 
 .lighter div:first-of-type{
@@ -89,7 +96,7 @@ nav ul li a{
     align-items: center;
 }
 
-.lighter div h2{
+.lighter div h1{
     width: 261px;
     color: #FFF;
     font-size: 36px;
@@ -286,10 +293,9 @@ main>p{
     margin-top: 26px;
 }
 /*-----------------------section---------------------------*/
-section>img{
+.map{
     width: 1400px;
     height: 664px;
-    background: url(img/map.png) lightgray 50% / cover no-repeat;
 }
 /*-----------------------------footer------------------------------------*/
 footer{
