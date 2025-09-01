@@ -1,0 +1,114 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+
+}
+
+body{
+    background: #161622;
+    overflow: hidden;
+}
+
+body section:first-of-type{
+    width: 396px;
+    height: 396px;
+    border-radius: 396px;
+    border: 48px solid #6F1DF4;
+    opacity: 0.5;
+    position: absolute;
+    top: -200px;
+    left: -210px;
+}
+
+body section:last-of-type{
+    width: 260px;
+    height: 260px;
+    border-radius: 260px;
+    border: 48px solid #6F1DF4;
+    opacity: 0.5;
+    position: absolute;
+    top: -20px;
+    right: -120px;
+}
+
+.error{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.error h1{
+    width: 367px;
+    height: 180px;
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 180px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    line-height: 140px;
+    margin: 125px 0 10px 0;
+}
+
+.error h3{
+    flex: 1 0 0;
+    color:  rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0.25px;
+    margin-bottom: 33px;
+}
+
+.error p{
+    flex: 1 0 0;
+    width: 530px;
+    color: rgba(198, 194, 194, 0.75);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 140%;
+    margin-bottom: 40px
+
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap:24px
+}
+
+.buttons button:first-of-type{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 120%; /* 19.2px */
+    display: flex;
+    height: 64px;
+    padding: 0 48px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 32px;
+    background: #6F1DF4;
+    border: none;
+}
+
+.buttons button:last-of-type{
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 120%; /* 19.2px */
+    display: flex;
+    height: 64px;
+    padding: 0 48px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 32px;
+    background: #FFF;
+    border: none;
+}
