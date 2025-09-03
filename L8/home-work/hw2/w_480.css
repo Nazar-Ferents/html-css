@@ -1,0 +1,41 @@
+@media screen and (max-width: 480px){
+
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+
+    .items{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 32px auto;
+        gap: 32px;
+
+    }
+    .item{
+        width: 343px;
+    }
+
+    img{
+        width: 128px;
+        margin: 0 0;
+
+    }
+    h3{
+
+        margin: 16px 0 8px 0;
+    }
+
+
+
+    p  {
+        margin: 0 0;
+
+    }
+
+}
